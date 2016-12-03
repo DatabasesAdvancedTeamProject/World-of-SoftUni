@@ -35,6 +35,7 @@
             this.passwordLabel = new System.Windows.Forms.Label();
             this.logButton = new System.Windows.Forms.Button();
             this.wrongLabel = new System.Windows.Forms.Label();
+            this.registerButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // userName
@@ -85,6 +86,7 @@
             // 
             this.logButton.BackColor = System.Drawing.Color.Transparent;
             this.logButton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("logButton.BackgroundImage")));
+            this.logButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.logButton.Font = new System.Drawing.Font("Monotype Corsiva", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.logButton.ForeColor = System.Drawing.Color.Black;
             this.logButton.Location = new System.Drawing.Point(64, 121);
@@ -108,12 +110,27 @@
             this.wrongLabel.Text = "Wrong username or password.";
             this.wrongLabel.Visible = false;
             // 
+            // registerButton
+            // 
+            this.registerButton.BackColor = System.Drawing.Color.Transparent;
+            this.registerButton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("registerButton.BackgroundImage")));
+            this.registerButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.registerButton.Font = new System.Drawing.Font("Monotype Corsiva", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.registerButton.ForeColor = System.Drawing.Color.White;
+            this.registerButton.Location = new System.Drawing.Point(520, 15);
+            this.registerButton.Name = "registerButton";
+            this.registerButton.Size = new System.Drawing.Size(132, 45);
+            this.registerButton.TabIndex = 6;
+            this.registerButton.Text = "Register";
+            this.registerButton.UseVisualStyleBackColor = false;
+            // 
             // LoginForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(664, 328);
+            this.Controls.Add(this.registerButton);
             this.Controls.Add(this.wrongLabel);
             this.Controls.Add(this.logButton);
             this.Controls.Add(this.passwordLabel);
@@ -138,5 +155,6 @@
         private System.Windows.Forms.Label passwordLabel;
         private System.Windows.Forms.Button logButton;
         private System.Windows.Forms.Label wrongLabel;
+        private System.Windows.Forms.Button registerButton;
     }
 }

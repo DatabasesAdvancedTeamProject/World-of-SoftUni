@@ -22,7 +22,7 @@
         [Required, MinLength(5, ErrorMessage = "Your password must be at least 5 characters long!")]
         public string PasswordHash { get; set; }
 
-        [RegularExpression(@"(^\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$)")]
+        [Required, RegularExpression(@"(^\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$)")]
         public string Email { get; set; }
 
         public bool IsLogged { get; set; }

@@ -16,8 +16,7 @@ namespace Test
         static void Main(string[] args)
         {
             WorldOfSoftUniContext context = new WorldOfSoftUniContext();
-            User user = context.Users.FirstOrDefault(u => u.UserName == "bobi");
-            Console.WriteLine(user.PasswordHash);
+            User user = new User();
         }
     }
 }
