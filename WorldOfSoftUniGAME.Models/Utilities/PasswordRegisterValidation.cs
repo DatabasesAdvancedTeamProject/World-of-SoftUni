@@ -11,16 +11,16 @@
 
         public static PasswordType IsValid(string password)
         {
-            if (password == null)
+            if (password == string.Empty)
             {
                 return PasswordType.Empty;
             }
-            else if (password.Length < 6 || password.Length > 20)
+            else if (password.Length < 5 || password.Length > 20)
             {
                 return PasswordType.Lenght;
             }
 
-            string regularExpressinString = @"^(?=.{8,20}$)([a-zA-Z0-9]+)$";
+            string regularExpressinString = @"^(?=.{5,20}$)([a-zA-Z0-9]+)$";
             Regex regex = new Regex(regularExpressinString);
             if (!regex.IsMatch(password))
             {

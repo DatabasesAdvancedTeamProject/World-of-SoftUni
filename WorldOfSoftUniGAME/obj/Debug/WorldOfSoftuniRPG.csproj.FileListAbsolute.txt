@@ -38,3 +38,4 @@ C:\Users\Borko\Desktop\World-of-SoftUni\WorldOfSoftUniGAME\bin\Debug\EntityFrame
 C:\Users\Borko\Desktop\asd\WorldOfSoftUniGAME\bin\Debug\WorldOfSoftuniRPG.exe.config
 C:\Users\Borko\Desktop\asd\WorldOfSoftUniGAME\obj\Debug\WorldOfSoftuniRPG.exe
 C:\Users\Borko\Desktop\asd\WorldOfSoftUniGAME\obj\Debug\WorldOfSoftuniRPG.pdb
+C:\Users\Borko\Desktop\World-of-SoftUni\WorldOfSoftUniGAME\obj\Debug\WorldOfSoftuniRPG.Forms.Register.resources

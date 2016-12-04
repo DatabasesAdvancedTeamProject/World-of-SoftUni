@@ -17,7 +17,7 @@ namespace WorldOfSoftUniRPG.Models.Utilities
 
         public static EmailValidationMsg IsValid(string email)
         {
-            if (email == null)
+            if (email == string.Empty)
             {
                 return EmailValidationMsg.Empty;
             }

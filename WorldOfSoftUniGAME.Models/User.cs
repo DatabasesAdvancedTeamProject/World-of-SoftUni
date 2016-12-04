@@ -19,10 +19,10 @@
         [Required, StringLength(450), Index(IsUnique = true)]
         public string UserName { get; set; }
 
-        [Required, MinLength(5, ErrorMessage = "Your password must be at least 5 characters long!")]
+        [Required]
         public string PasswordHash { get; set; }
 
-        [Required, RegularExpression(@"(^\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$)")]
+        [Required]
         public string Email { get; set; }
 
         public bool IsLogged { get; set; }

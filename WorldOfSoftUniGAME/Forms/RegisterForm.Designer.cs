@@ -48,6 +48,7 @@
             this.emailEmpty = new System.Windows.Forms.Label();
             this.emailInvalid = new System.Windows.Forms.Label();
             this.usernameExists = new System.Windows.Forms.Label();
+            this.emailExists = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // userNameRegister
@@ -58,6 +59,7 @@
             this.userNameRegister.Name = "userNameRegister";
             this.userNameRegister.Size = new System.Drawing.Size(201, 26);
             this.userNameRegister.TabIndex = 1;
+            this.userNameRegister.TextChanged += new System.EventHandler(this.userNameRegister_TextChanged);
             // 
             // passwordRegister
             // 
@@ -75,7 +77,7 @@
             this.emailRegister.MaxLength = 20;
             this.emailRegister.Name = "emailRegister";
             this.emailRegister.Size = new System.Drawing.Size(201, 26);
-            this.emailRegister.TabIndex = 3;
+            this.emailRegister.TabIndex = 4;
             // 
             // userNameLabelRegister
             // 
@@ -133,7 +135,7 @@
             this.confirmPasswordRegister.MaxLength = 20;
             this.confirmPasswordRegister.Name = "confirmPasswordRegister";
             this.confirmPasswordRegister.Size = new System.Drawing.Size(201, 26);
-            this.confirmPasswordRegister.TabIndex = 7;
+            this.confirmPasswordRegister.TabIndex = 3;
             // 
             // button1
             // 
@@ -144,7 +146,7 @@
             this.button1.Location = new System.Drawing.Point(107, 410);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(127, 40);
-            this.button1.TabIndex = 9;
+            this.button1.TabIndex = 5;
             this.button1.Text = "REGISTER";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
@@ -279,12 +281,26 @@
             this.usernameExists.Text = "USERNAME already exists!";
             this.usernameExists.Visible = false;
             // 
+            // emailExists
+            // 
+            this.emailExists.AutoSize = true;
+            this.emailExists.BackColor = System.Drawing.Color.Transparent;
+            this.emailExists.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.emailExists.ForeColor = System.Drawing.Color.Red;
+            this.emailExists.Location = new System.Drawing.Point(51, 372);
+            this.emailExists.Name = "emailExists";
+            this.emailExists.Size = new System.Drawing.Size(235, 15);
+            this.emailExists.TabIndex = 20;
+            this.emailExists.Text = "User with this EMAIL already exists!";
+            this.emailExists.Visible = false;
+            // 
             // Register
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(934, 514);
+            this.Controls.Add(this.emailExists);
             this.Controls.Add(this.usernameExists);
             this.Controls.Add(this.emailInvalid);
             this.Controls.Add(this.emailEmpty);
@@ -334,5 +350,6 @@
         private System.Windows.Forms.Label emailEmpty;
         private System.Windows.Forms.Label emailInvalid;
         private System.Windows.Forms.Label usernameExists;
+        private System.Windows.Forms.Label emailExists;
     }
 }

@@ -28,6 +28,8 @@ namespace WorldOfSoftuniRPG.Forms
 
         private void button1_Click(object sender, EventArgs e)
         {
+            this.HideAll();
+
             var context = new WorldOfSoftUniContext();
 
             var userName = this.userNameRegister.Text;
@@ -73,6 +75,7 @@ namespace WorldOfSoftuniRPG.Forms
                 }
 
                 this.passwordRegister.Text = string.Empty;
+                this.confirmPasswordRegister.Text = string.Empty;
             }
             else if (password != confirmPassword)
             {
@@ -93,6 +96,10 @@ namespace WorldOfSoftuniRPG.Forms
 
                 this.emailRegister.Text = string.Empty;
             }
+            else if (context.Users.Any(user => user.Email == email.ToLower()))
+            {
+                this.emailExists.Visible = true;
+            }
             else
             {
                 User user = new User()
@@ -106,6 +113,26 @@ namespace WorldOfSoftuniRPG.Forms
 
                 context.SaveChanges();
             }
+        }
+
+        private void HideAll()
+        {
+            this.usernameEmpty.Visible = false;
+            this.usernameExists.Visible = false;
+            this.usernameInvalid.Visible = false;
+            this.usernameLenght.Visible = false;
+            this.passwordEmpty.Visible = false;
+            this.passwordInvalid.Visible = false;
+            this.passwordLenght.Visible = false;
+            this.confirmPasswordInvalid.Visible = false;
+            this.emailEmpty.Visible = false;
+            this.emailInvalid.Visible = false;
+            this.emailExists.Visible = false;
+        }
+
+        private void userNameRegister_TextChanged(object sender, EventArgs e)
+        {
+            
         }
     }
 }

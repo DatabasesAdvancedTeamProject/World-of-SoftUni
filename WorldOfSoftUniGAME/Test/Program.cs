@@ -16,7 +16,7 @@ namespace Test
         static void Main(string[] args)
         {
             WorldOfSoftUniContext context = new WorldOfSoftUniContext();
-            User user = new User();
+            context.Database.Initialize(true);
         }
     }
 }

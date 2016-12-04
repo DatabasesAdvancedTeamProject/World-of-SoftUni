@@ -12,16 +12,16 @@
 
         public static UsernameType IsValid(string username)
         {
-            if (username == null)
+            if (username == string.Empty)
             {
                 return UsernameType.Empty;
             }
-            else if (username.Length < 6 || username.Length > 20)
+            else if (username.Length < 5 || username.Length > 20)
             {
                 return UsernameType.Lenght;
             }
 
-            string regularExpressinString = @"^(?=.{6,20}$)([a-zA-Z]+[a-zA-Z0-9_]+)$";
+            string regularExpressinString = @"^(?=.{5,20}$)([a-zA-Z]+[a-zA-Z0-9_]+)$";
             Regex regex = new Regex(regularExpressinString);
             if (!regex.IsMatch(username))
             {
