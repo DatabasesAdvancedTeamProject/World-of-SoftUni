@@ -1,0 +1,20 @@
+C:\Users\Borko\Desktop\World-of-SoftUni\WorldOfSoftUniGAME.Models\bin\Debug\WorldOfSoftUniRPG.Models.dll.config
+C:\Users\Borko\Desktop\World-of-SoftUni\WorldOfSoftUniGAME.Models\bin\Debug\WorldOfSoftUniRPG.Models.dll
+C:\Users\Borko\Desktop\World-of-SoftUni\WorldOfSoftUniGAME.Models\bin\Debug\WorldOfSoftUniRPG.Models.pdb
+C:\Users\Borko\Desktop\World-of-SoftUni\WorldOfSoftUniGAME.Models\bin\Debug\EntityFramework.dll
+C:\Users\Borko\Desktop\World-of-SoftUni\WorldOfSoftUniGAME.Models\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Borko\Desktop\World-of-SoftUni\WorldOfSoftUniGAME.Models\bin\Debug\EntityFramework.xml
+C:\Users\Borko\Desktop\World-of-SoftUni\WorldOfSoftUniGAME.Models\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Borko\Desktop\World-of-SoftUni\WorldOfSoftUniGAME.Models\obj\Debug\WorldOfSoftUniRPG.Models.csprojResolveAssemblyReference.cache
+C:\Users\Borko\Desktop\World-of-SoftUni\WorldOfSoftUniGAME.Models\obj\Debug\WorldOfSoftUniRPG.Models.dll
+C:\Users\Borko\Desktop\World-of-SoftUni\WorldOfSoftUniGAME.Models\obj\Debug\WorldOfSoftUniRPG.Models.pdb
+D:\Documents\GitHub\DataBase Advanced EF TeamProject\World-of-SoftUni\World-of-SoftUni-master\WorldOfSoftUniGAME.Models\bin\Debug\WorldOfSoftUniRPG.Models.dll.config
+D:\Documents\GitHub\DataBase Advanced EF TeamProject\World-of-SoftUni\World-of-SoftUni-master\WorldOfSoftUniGAME.Models\bin\Debug\WorldOfSoftUniRPG.Models.dll
+D:\Documents\GitHub\DataBase Advanced EF TeamProject\World-of-SoftUni\World-of-SoftUni-master\WorldOfSoftUniGAME.Models\bin\Debug\WorldOfSoftUniRPG.Models.pdb
+D:\Documents\GitHub\DataBase Advanced EF TeamProject\World-of-SoftUni\World-of-SoftUni-master\WorldOfSoftUniGAME.Models\bin\Debug\EntityFramework.dll
+D:\Documents\GitHub\DataBase Advanced EF TeamProject\World-of-SoftUni\World-of-SoftUni-master\WorldOfSoftUniGAME.Models\bin\Debug\EntityFramework.SqlServer.dll
+D:\Documents\GitHub\DataBase Advanced EF TeamProject\World-of-SoftUni\World-of-SoftUni-master\WorldOfSoftUniGAME.Models\bin\Debug\EntityFramework.xml
+D:\Documents\GitHub\DataBase Advanced EF TeamProject\World-of-SoftUni\World-of-SoftUni-master\WorldOfSoftUniGAME.Models\bin\Debug\EntityFramework.SqlServer.xml
+D:\Documents\GitHub\DataBase Advanced EF TeamProject\World-of-SoftUni\World-of-SoftUni-master\WorldOfSoftUniGAME.Models\obj\Debug\WorldOfSoftUniRPG.Models.csprojResolveAssemblyReference.cache
+D:\Documents\GitHub\DataBase Advanced EF TeamProject\World-of-SoftUni\World-of-SoftUni-master\WorldOfSoftUniGAME.Models\obj\Debug\WorldOfSoftUniRPG.Models.dll
+D:\Documents\GitHub\DataBase Advanced EF TeamProject\World-of-SoftUni\World-of-SoftUni-master\WorldOfSoftUniGAME.Models\obj\Debug\WorldOfSoftUniRPG.Models.pdb
