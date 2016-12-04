@@ -39,9 +39,9 @@ namespace WorldOfSoftuniRPG.Forms
         private void bt_StartGame_Click(object sender, EventArgs e)
         {
             this.Hide();
-            var form2 = new Frm_HeroSelection();
-            form2.Closed += (s, args) => this.Close();
-            form2.Show();
+            var heroSelection = new Frm_HeroSelection();
+            heroSelection.Closed += (s, args) => this.Close();
+            heroSelection.Show();
 
         }
         
