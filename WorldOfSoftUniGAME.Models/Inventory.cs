@@ -12,9 +12,9 @@
             this.Items = new List<Item>();
         }
 
-        [Key,ForeignKey("Hero")]
+        [Key, ForeignKey("Hero")]
         public int Id { get; set; }
-
+       
         public virtual Hero Hero { get; set; }
 
         public virtual ICollection<Item> Items { get; set; }

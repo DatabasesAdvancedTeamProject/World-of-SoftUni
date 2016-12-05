@@ -26,5 +26,7 @@
         public string Email { get; set; }
 
         public bool IsLogged { get; set; }
+
+        public virtual Hero Hero { get; set; }
     }
 }
