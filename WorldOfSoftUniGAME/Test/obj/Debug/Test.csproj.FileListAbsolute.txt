@@ -12,3 +12,5 @@ C:\Users\Borko\Desktop\World-of-SoftUni\WorldOfSoftUniGAME\Test\bin\Debug\WorldO
 C:\Users\Borko\Desktop\World-of-SoftUni\WorldOfSoftUniGAME\Test\bin\Debug\WorldOfSoftUniRPG.Data.pdb
 C:\Users\Borko\Desktop\World-of-SoftUni\WorldOfSoftUniGAME\Test\bin\Debug\EntityFramework.xml
 C:\Users\Borko\Desktop\World-of-SoftUni\WorldOfSoftUniGAME\Test\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Borko\Desktop\World-of-SoftUni\WorldOfSoftUniGAME\Test\bin\Debug\WorldOfSoftuniRPG.exe
+C:\Users\Borko\Desktop\World-of-SoftUni\WorldOfSoftUniGAME\Test\bin\Debug\WorldOfSoftuniRPG.pdb

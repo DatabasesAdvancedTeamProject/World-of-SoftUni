@@ -1,6 +1,6 @@
 ﻿namespace WorldOfSoftuniRPG.Models.Players
 {
-    internal class Mage : Hero
+    public class Mage : Hero
     {
         private const int Attack = 150;
         private const int Defence = 90;

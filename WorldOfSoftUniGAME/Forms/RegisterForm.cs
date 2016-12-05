@@ -113,7 +113,8 @@ namespace WorldOfSoftuniRPG.Forms
 
                 context.SaveChanges();
 
-                MessageBox.Show("You have successfully registered a new user.");
+                MessageBox.Show("SUCCESSFUL REGISTRATION !!!");
+
                 this.Hide();
                 LoginForm login = new LoginForm();
                 login.Closed += (s, args) => this.Close();

@@ -68,6 +68,10 @@
       <Project>{3AE59CBC-0A06-4D02-A0C1-04CF9E785C36}</Project>
       <Name>WorldOfSoftUniRPG.Data</Name>
     </ProjectReference>
+    <ProjectReference Include="..\WorldOfSoftuniRPG.csproj">
+      <Project>{bf481753-2f2b-4828-8006-d2d32cd71da2}</Project>
+      <Name>WorldOfSoftuniRPG</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

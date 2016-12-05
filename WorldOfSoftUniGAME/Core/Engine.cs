@@ -107,8 +107,6 @@
             }
         }
 
-       
-
         private void GenerateEnemies()
         {
             Validator.CheckIfHeroExist(Field.Hero);

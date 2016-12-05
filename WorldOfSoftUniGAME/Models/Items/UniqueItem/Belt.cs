@@ -1,8 +1,6 @@
-﻿namespace WorldOfSoftuniRPG.Models.Items.AttackItems
+﻿namespace WorldOfSoftuniRPG.Models.Items.UniqueItem
 {
-    using WorldOfSoftuniRPG.Interafaces;
-    using WorldOfSoftuniRPG.Models.Items.UniqueItem;
-    using Enumerations;
+    using WorldOfSoftuniRPG.Enumerations;
 
     public class Belt : DefenceAttack
     { 

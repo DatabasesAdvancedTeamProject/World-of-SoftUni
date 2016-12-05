@@ -49,6 +49,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AttackItem.cs" />
+    <Compile Include="DefenceAttack.cs" />
+    <Compile Include="DefenceItem.cs" />
+    <Compile Include="Hero.cs" />
+    <Compile Include="Inventory.cs" />
+    <Compile Include="Item.cs" />
     <Compile Include="User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Utilities\EmailRegisterValidation.cs" />

@@ -10,5 +10,6 @@
         Rare,
         Magic,
         Legendary,
+        Default
     }
 }

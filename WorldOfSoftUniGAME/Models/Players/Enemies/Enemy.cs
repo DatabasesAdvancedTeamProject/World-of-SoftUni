@@ -6,7 +6,9 @@
     using Fields;
     using Interafaces;
     using Items.AttackItems;
-    using Items.DefenseItems;   
+    using Items.DefenseItems;
+
+    using WorldOfSoftuniRPG.Models.Items.UniqueItem;
 
     public class Enemy : PlayerObject, IDrop
     {
