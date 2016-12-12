@@ -1,0 +1,32 @@
+C:\Users\Borko\Desktop\World-of-SoftUni\WorldOfSoftUniGAME\WorldOfSoftUniRPG.Data\bin\Debug\WorldOfSoftUniRPG.Data.dll.config
+C:\Users\Borko\Desktop\World-of-SoftUni\WorldOfSoftUniGAME\WorldOfSoftUniRPG.Data\bin\Debug\WorldOfSoftUniRPG.Data.dll
+C:\Users\Borko\Desktop\World-of-SoftUni\WorldOfSoftUniGAME\WorldOfSoftUniRPG.Data\bin\Debug\WorldOfSoftUniRPG.Data.pdb
+C:\Users\Borko\Desktop\World-of-SoftUni\WorldOfSoftUniGAME\WorldOfSoftUniRPG.Data\bin\Debug\EntityFramework.dll
+C:\Users\Borko\Desktop\World-of-SoftUni\WorldOfSoftUniGAME\WorldOfSoftUniRPG.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Borko\Desktop\World-of-SoftUni\WorldOfSoftUniGAME\WorldOfSoftUniRPG.Data\bin\Debug\WorldOfSoftUniRPG.Models.dll
+C:\Users\Borko\Desktop\World-of-SoftUni\WorldOfSoftUniGAME\WorldOfSoftUniRPG.Data\bin\Debug\WorldOfSoftUniRPG.Models.pdb
+C:\Users\Borko\Desktop\World-of-SoftUni\WorldOfSoftUniGAME\WorldOfSoftUniRPG.Data\bin\Debug\EntityFramework.xml
+C:\Users\Borko\Desktop\World-of-SoftUni\WorldOfSoftUniGAME\WorldOfSoftUniRPG.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Borko\Desktop\World-of-SoftUni\WorldOfSoftUniGAME\WorldOfSoftUniRPG.Data\obj\Debug\WorldOfSoftUniRPG.Data.csprojResolveAssemblyReference.cache
+C:\Users\Borko\Desktop\World-of-SoftUni\WorldOfSoftUniGAME\WorldOfSoftUniRPG.Data\obj\Debug\WorldOfSoftUniRPG.Data.dll
+C:\Users\Borko\Desktop\World-of-SoftUni\WorldOfSoftUniGAME\WorldOfSoftUniRPG.Data\obj\Debug\WorldOfSoftUniRPG.Data.pdb
+C:\Users\Borko\Desktop\World-of-SoftUni\WorldOfSoftUniRPG.Data\bin\Debug\WorldOfSoftUniRPG.Data.dll.config
+C:\Users\Borko\Desktop\World-of-SoftUni\WorldOfSoftUniRPG.Data\bin\Debug\WorldOfSoftUniRPG.Data.dll
+C:\Users\Borko\Desktop\World-of-SoftUni\WorldOfSoftUniRPG.Data\bin\Debug\WorldOfSoftUniRPG.Data.pdb
+C:\Users\Borko\Desktop\World-of-SoftUni\WorldOfSoftUniRPG.Data\bin\Debug\WorldOfSoftUniRPG.Models.dll
+C:\Users\Borko\Desktop\World-of-SoftUni\WorldOfSoftUniRPG.Data\bin\Debug\WorldOfSoftUniRPG.Models.pdb
+C:\Users\Borko\Desktop\World-of-SoftUni\WorldOfSoftUniRPG.Data\bin\Debug\EntityFramework.xml
+C:\Users\Borko\Desktop\World-of-SoftUni\WorldOfSoftUniRPG.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Borko\Desktop\World-of-SoftUni\WorldOfSoftUniRPG.Data\obj\Debug\WorldOfSoftUniRPG.Data.csprojResolveAssemblyReference.cache
+C:\Users\Borko\Desktop\World-of-SoftUni\WorldOfSoftUniRPG.Data\obj\Debug\WorldOfSoftUniRPG.Data.dll
+C:\Users\Borko\Desktop\World-of-SoftUni\WorldOfSoftUniRPG.Data\obj\Debug\WorldOfSoftUniRPG.Data.pdb
+C:\Users\User\Desktop\GitHub\DB - EF team project\World-of-SoftUni\WorldOfSoftUniRPG.Data\bin\Debug\WorldOfSoftUniRPG.Data.dll.config
+C:\Users\User\Desktop\GitHub\DB - EF team project\World-of-SoftUni\WorldOfSoftUniRPG.Data\bin\Debug\WorldOfSoftUniRPG.Data.dll
+C:\Users\User\Desktop\GitHub\DB - EF team project\World-of-SoftUni\WorldOfSoftUniRPG.Data\bin\Debug\WorldOfSoftUniRPG.Data.pdb
+C:\Users\User\Desktop\GitHub\DB - EF team project\World-of-SoftUni\WorldOfSoftUniRPG.Data\bin\Debug\WorldOfSoftUniRPG.Models.dll
+C:\Users\User\Desktop\GitHub\DB - EF team project\World-of-SoftUni\WorldOfSoftUniRPG.Data\bin\Debug\WorldOfSoftUniRPG.Models.pdb
+C:\Users\User\Desktop\GitHub\DB - EF team project\World-of-SoftUni\WorldOfSoftUniRPG.Data\bin\Debug\EntityFramework.xml
+C:\Users\User\Desktop\GitHub\DB - EF team project\World-of-SoftUni\WorldOfSoftUniRPG.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\User\Desktop\GitHub\DB - EF team project\World-of-SoftUni\WorldOfSoftUniRPG.Data\obj\Debug\WorldOfSoftUniRPG.Data.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\GitHub\DB - EF team project\World-of-SoftUni\WorldOfSoftUniRPG.Data\obj\Debug\WorldOfSoftUniRPG.Data.dll
+C:\Users\User\Desktop\GitHub\DB - EF team project\World-of-SoftUni\WorldOfSoftUniRPG.Data\obj\Debug\WorldOfSoftUniRPG.Data.pdb

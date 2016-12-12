@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="WorldOfSoftuniRPG.Models.Fields.Validator" Collapsed="true">
+    <Position X="11.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAgAAIAAAAAAEAAAAAAAAAAAAAACAACAAAAA=</HashCode>
+      <FileName>Models\Fields\Validator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WorldOfSoftuniRPG.Models.Fields.MarketField">
+    <Position X="6.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQgAAAAgAAAAAAAAAAAAAAAACAAQBAgA=</HashCode>
+      <FileName>Models\Fields\MarketField.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WorldOfSoftuniRPG.Models.Fields.Inventory" Collapsed="true">
+    <Position X="13.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAEAAgAAAAAAAAABAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Fields\Inventory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WorldOfSoftuniRPG.Models.Fields.Field" Collapsed="true">
+    <Position X="8" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>Models\Fields\Field.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WorldOfSoftuniRPG.Models.Fields.Constants" Collapsed="true">
+    <Position X="11.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAgAAQgAAAAAABBAAAAIBAIEQAEAAgAAEAABAAg=</HashCode>
+      <FileName>Models\Fields\Constants.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WorldOfSoftuniRPG.Models.Fields.BattleField">
+    <Position X="9" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAGAAAAAgAAAAABAEAEAABAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Fields\BattleField.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
