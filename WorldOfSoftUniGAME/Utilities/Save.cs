@@ -18,8 +18,8 @@
     {
         public static void SaveHeroInformation()
         {
-            var context = new WorldOfSoftUniContext();
-            var currentUser = context.Users.FirstOrDefault(u => u.IsLogged);
+            var unitOfWork = new UnitOfWork();
+            var currentUser = unitOfWork.Users.First(u => u.IsLogged);
 
             currentUser.Hero.Attack = Field.Hero.Attack;
             currentUser.Hero.Deffence = Field.Hero.Defence;
@@ -31,27 +31,27 @@
             var itemsDto = Field.Hero.Inventory.Items;
             var items = currentUser.Hero.Inventory.Items.ToList();
 
-            ReFillInventory(items, context);
+            ReFillInventory(items, unitOfWork);
 
             foreach (var itemDto in itemsDto)
             {
-                GetItem(itemDto, currentUser, context);
+                GetItem(itemDto, currentUser, unitOfWork);
             }
         }
 
-        private static void ReFillInventory(ICollection<Item> items, WorldOfSoftUniContext context)
+        private static void ReFillInventory(ICollection<Item> items, UnitOfWork unitOfWork)
         {
             foreach (var item in items)
             {
-                context.Items.Remove(item);
-                context.SaveChanges();
+                unitOfWork.Items.Remove(item);
+                unitOfWork.Commit();
             }
 
             items.Clear();
-            context.SaveChanges();
+            unitOfWork.Commit();
         }
 
-        private static void GetItem(IItem itemDto, User currentUser, WorldOfSoftUniContext context)
+        private static void GetItem(IItem itemDto, User currentUser, UnitOfWork unitOfWork)
         {
             var itemArgs = itemDto.ToString().Trim().Split(new[] { " " }, StringSplitOptions.RemoveEmptyEntries);
             var type = itemArgs[0];
@@ -139,7 +139,7 @@
                 }
             }
 
-            context.SaveChanges();
+            unitOfWork.Commit();
         }
     }
 }

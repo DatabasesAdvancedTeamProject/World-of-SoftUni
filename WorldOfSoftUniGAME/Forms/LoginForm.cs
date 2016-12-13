@@ -18,12 +18,12 @@
         }
         private void logButton_Click(object sender, EventArgs e)
         {
-            var context = new WorldOfSoftUniContext();
+            var unitOfWork = new UnitOfWork();
 
             var username = this.userName.Text;
             var password = PasswordHashAlgorithm.Hash(this.passwordBox.Text);
 
-            var currentUser = context.Users.FirstOrDefault(user => user.UserName == username);
+            var currentUser = unitOfWork.Users.First(user => user.UserName == username);
             if (currentUser == null || currentUser.PasswordHash != password)
             {
                 this.wrongLabel.Visible = true;
@@ -33,7 +33,7 @@
             else
             {
                 currentUser.IsLogged = true;
-                context.SaveChanges();
+                unitOfWork.Commit();
 
                 this.Hide();
                 var menu = new Frm_Menu();

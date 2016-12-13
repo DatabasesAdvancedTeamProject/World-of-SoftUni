@@ -19,7 +19,7 @@
             { EnemyType.Deathwing, 0 }
         };
 
-        private static IList<Enemy> enemies;
+        private static IList<Enemy> enemies = new List<Enemy>();
         private static Enemy targetEnemy;
 
         public static Dictionary<EnemyType, int> AttackedEnemies

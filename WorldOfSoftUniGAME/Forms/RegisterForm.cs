@@ -30,7 +30,7 @@ namespace WorldOfSoftuniRPG.Forms
         {
             this.HideAll();
 
-            var context = new WorldOfSoftUniContext();
+            var unitOfWork = new UnitOfWork();
 
             var userName = this.userNameRegister.Text;
             var password = this.passwordRegister.Text;
@@ -55,7 +55,7 @@ namespace WorldOfSoftuniRPG.Forms
                     this.usernameInvalid.Visible = true;
                 }
             }
-            else if (context.Users.Any(user => user.UserName == userName.ToLower()))
+            else if (unitOfWork.Users.Any(user => user.UserName == userName.ToLower()))
             {
                 this.usernameExists.Visible = true;
             }
@@ -96,7 +96,7 @@ namespace WorldOfSoftuniRPG.Forms
 
                 this.emailRegister.Text = string.Empty;
             }
-            else if (context.Users.Any(user => user.Email == email.ToLower()))
+            else if (unitOfWork.Users.Any(user => user.Email == email.ToLower()))
             {
                 this.emailExists.Visible = true;
             }
@@ -109,9 +109,9 @@ namespace WorldOfSoftuniRPG.Forms
                                     Email = email
                                 };
 
-                context.Users.Add(user);
+                unitOfWork.Users.Add(user);
 
-                context.SaveChanges();
+                unitOfWork.Commit();
 
                 MessageBox.Show("SUCCESSFUL REGISTRATION !!!");
 
@@ -140,6 +140,16 @@ namespace WorldOfSoftuniRPG.Forms
         private void userNameRegister_TextChanged(object sender, EventArgs e)
         {
             
+        }
+
+        private void button1_MouseHover(object sender, EventArgs e)
+        {
+            this.button1.ForeColor = Color.Blue;
+        }
+
+        private void button1_MouseLeave(object sender, EventArgs e)
+        {
+            this.button1.ForeColor = Color.GreenYellow;
         }
     }
 }

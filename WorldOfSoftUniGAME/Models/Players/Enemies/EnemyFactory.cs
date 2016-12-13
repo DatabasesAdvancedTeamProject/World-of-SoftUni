@@ -1,7 +1,7 @@
-﻿namespace WorldOfSoftuniRPG.Models.Players
+﻿namespace WorldOfSoftuniRPG.Models.Players.Enemies
 {
-    using CustomExceptions;
-    using Enumerations;
+    using WorldOfSoftuniRPG.CustomExceptions;
+    using WorldOfSoftuniRPG.Enumerations;
 
     public static class EnemyFactory
     {

@@ -109,7 +109,9 @@ namespace WorldOfSoftuniRPG.Forms
                 Console.WriteLine(new string(Constants.LineSeparator, 79));
                 Console.WriteLine("1.To continue playing please enter command \"help\" to show you all command.");
                 Console.WriteLine(new string(Constants.LineSeparator, 79));
-                Console.WriteLine("2.To exit the game enter command \"exit\".");
+                Console.WriteLine("2.To EXIT and SAVE the game enter command \"exit\".");
+                Console.WriteLine(new string(Constants.LineSeparator, 79));
+                Console.WriteLine("3.To SAVE and continue playing the game enter command \"save\"");
                 Console.WriteLine();
                 Console.ForegroundColor = ConsoleColor.White;
             }

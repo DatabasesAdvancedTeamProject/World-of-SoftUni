@@ -164,7 +164,7 @@
                  {
                      if (BattleField.TargetEnemy.EnemyType != EnemyType.Deathwing)
                      {
-                         UpdateHeroStats();
+                         this.UpdateHeroStats();
                      }
 
                      Console.WriteLine(Field.Hero.GetType().Name + " successfully kill " + BattleField.TargetEnemy.EnemyType);

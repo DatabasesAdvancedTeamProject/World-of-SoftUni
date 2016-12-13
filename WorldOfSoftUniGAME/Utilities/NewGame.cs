@@ -11,17 +11,17 @@
     {
         public static void NewHero()
         {
-            var context = new WorldOfSoftUniContext();
-            var currentUser = context.Users.FirstOrDefault(u => u.IsLogged);
+            var unitOfWork = new UnitOfWork();
+            var currentUser = unitOfWork.Users.First(u => u.IsLogged);
 
             if (currentUser.Hero == null)
             {
                 var hero = new Hero() { User = currentUser };
                 currentUser.Hero = hero;
-                context.SaveChanges();
+                unitOfWork.Commit();
                 var inventory = new Inventory() { Hero = currentUser.Hero };
                 currentUser.Hero.Inventory = inventory;
-                context.SaveChanges();
+                unitOfWork.Commit();
             }
             else
             {
@@ -29,9 +29,9 @@
                 foreach (var item in items)
                 {
                     currentUser.Hero.Inventory.Items.Remove(item);
-                    context.Items.Remove(item);
+                    unitOfWork.Items.Remove(item);
 
-                    context.SaveChanges();
+                    unitOfWork.Commit();
                 }
             }
 
@@ -44,7 +44,7 @@
             currentUser.Hero.Kills = Field.Hero.Kills;
             currentUser.Hero.Level = Field.Hero.Level;
 
-            context.SaveChanges();
+            unitOfWork.Commit();
         }
     }
 }

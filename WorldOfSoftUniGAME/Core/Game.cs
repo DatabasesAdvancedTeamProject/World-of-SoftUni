@@ -15,10 +15,10 @@
 
         public static void LogoutUser()
         {
-            var context = new WorldOfSoftUniContext();
-            var currentUser = context.Users.FirstOrDefault(u => u.IsLogged);
+            var unitOfWork = new UnitOfWork();
+            var currentUser = unitOfWork.Users.First(u => u.IsLogged);
             currentUser.IsLogged = false;
-            context.SaveChanges();
+            unitOfWork.Commit();
         }
 
         public void Start()

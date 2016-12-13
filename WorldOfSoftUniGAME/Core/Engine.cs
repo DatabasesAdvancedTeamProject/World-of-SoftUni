@@ -10,6 +10,7 @@
     using Models.Helper;
     using Models.Players;
 
+    using WorldOfSoftuniRPG.Models.Players.Enemies;
     using WorldOfSoftuniRPG.Utilities;
 
     using WorldOfSoftUniRPG.Data;
@@ -40,6 +41,7 @@
                     break;
             }
 
+            Save.SaveHeroInformation();
             Game.LogoutUser();
             Game.IsGameRunning = false;
         }
